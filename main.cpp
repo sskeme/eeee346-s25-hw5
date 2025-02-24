@@ -23,7 +23,6 @@ int main() {
   printStatus();
 
   // print out what is in the circular buffer
-  cout << endl;
   cout << "Buffer contents: " << endl;
   while (!isEmpty()) {
     cout << get();
