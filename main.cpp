@@ -11,9 +11,6 @@ int main() {
   // create a circular buffer
   create(c);
 
-  // print the circular buffer status
-  printStatus();
-
   // receive a message for the circular buffer
   getline(cin >> ws, msg);
 
