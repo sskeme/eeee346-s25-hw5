@@ -6,7 +6,7 @@ In this homework assignment, you will implement a circular buffer for characters
 
 As an electrical engineer, you may write programs/firmware for resource-constrained platforms such as a microcontroller. The circular buffer (or ring buffer) is a data structure often used in this situation.
 
-The circular buffer is a fixed-sized buffer that treats the memory as if it is a circular structure. Two location pointers are used for this buffer:
+The circular buffer is a fixed-sized buffer that treats the memory as if it is a circular structure. Two indices are used for this buffer:
 1. Insertion location (head) for putting values
 2. Extraction location (tail) for getting values
 
